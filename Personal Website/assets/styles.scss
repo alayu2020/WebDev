@@ -39,3 +39,20 @@
     height: 200px;
 }
 
+.tab-content.hide{
+    display: none;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+.tab-content div p{
+    font-size: .33em;
+    padding: 2%;
+}
+
+li{
+    list-style-type: none;
+    font-size: .33em;
+}
