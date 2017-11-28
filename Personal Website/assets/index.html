@@ -13,8 +13,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
 </head>
+<div class="background">
+  <img id="bg"src="https://i.ytimg.com/vi/h41R1x8x9fY/maxresdefault.jpg" alt="">
+  <img id="pic-me"src="http://www.petmd.com/sites/default/files/what-does-it-mean-when-cat-wags-tail.jpg" alt="">  
+</div>
 
-<div class="name">I'm Alan Yu
+<div class="name">
+    <span id="name">I'm Alan Yu</span>
     <div class="about-me">Sophomore Computer Science Student at The University of Michigan
     </div>
 
@@ -58,12 +63,20 @@
       
       <section id="tab3" class="tab-content hide">
         <div>
-          <a href="Resume.pdf" download="Resume">Download</a>
+            <a href="Resume.pdf" download="Resume" class="ui animated button">
+              <div class="visible content">Download</div>
+              <div class="hidden content"><i class="right arrow icon"></i></div>
+            </a>
+          
+          
         </div>
       </section>
       <section id="tab4" class="tab-content hide">
         <div>
-          Content tab 4
+          <a href=""><i class="github icon"></i></a>
+          <a href=""><i class="facebook square icon"></i></a>
+          <a href=""><i class="linkedin square icon"></i></a>
+          <a href=""><i class="mail outline icon"></i></a>
         </div>
       </section>
 </div>
